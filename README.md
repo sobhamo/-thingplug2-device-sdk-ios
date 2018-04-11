@@ -26,11 +26,12 @@ ThingPlug Simple framework는 소스코드 형태로 제공되며 Application에
 ### Carthage 설치 및 framework 업데이트 
 Simple framework는 framework의 원할한 업데이트 적용 및 import 편의를 위하여 [Carthage](https://github.com/Carthage/Carthage)를 사용합니다.
 
-1. Carthage 설치 후 신규 Project 폴더에 Cartfile을 생성하고 아래 4개의 git 저장소 주소를 추가 후 저장합니다.
+1. Carthage 설치 후 신규 Project 폴더에 Cartfile을 생성하고 아래 1개의 git 저장소 주소를 추가 후 저장합니다.
 ```
 github "sobhamo/-thingplug2-device-sdk-ios" "master"
-
 ```
+
+<img src="images/cartfile.png"/>
 
 2. 터미널에서 Project 폴더로 이동 후 Carthage update 명령어를 입력합니다.
 "carthage update --platform iOS" 후 ENTER
